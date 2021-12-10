@@ -620,7 +620,9 @@ namespace cs_7segment_time
             this.ClientSize = new System.Drawing.Size(802, 274);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "7 Segment Display Time";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
