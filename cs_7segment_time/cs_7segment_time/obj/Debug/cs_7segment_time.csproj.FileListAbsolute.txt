@@ -1,0 +1,10 @@
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\bin\Debug\cs_7segment_time.exe.config
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\bin\Debug\cs_7segment_time.exe
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\bin\Debug\cs_7segment_time.pdb
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\obj\Debug\cs_7segment_time.csproj.AssemblyReference.cache
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\obj\Debug\cs_7segment_time.Form1.resources
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\obj\Debug\cs_7segment_time.Properties.Resources.resources
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\obj\Debug\cs_7segment_time.csproj.GenerateResource.cache
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\obj\Debug\cs_7segment_time.csproj.CoreCompileInputs.cache
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\obj\Debug\cs_7segment_time.exe
+C:\Users\Rom\Desktop\5TH YR 1ST SEM FILES\OOP\7-segment-time-format\cs_7segment_time\cs_7segment_time\obj\Debug\cs_7segment_time.pdb
