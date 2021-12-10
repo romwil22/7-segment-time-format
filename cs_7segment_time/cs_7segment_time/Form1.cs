@@ -16,5 +16,7 @@ namespace cs_7segment_time
         {
             InitializeComponent();
         }
+
+        
     }
 }
