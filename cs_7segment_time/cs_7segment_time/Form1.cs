@@ -438,6 +438,215 @@ namespace cs_7segment_time
                 m2F.BackColor = Color.Red;
                 m2G.BackColor = Color.DarkGray;
             }
+
+            // HOURS
+            int h1 = Convert.ToInt32(DateTime.Now.ToString("HH").Substring(DateTime.Now.ToString("HH").Length - 1));
+            int h2 = Convert.ToInt32(DateTime.Now.ToString("HH").Substring(0, 1));
+
+            // first hours
+            if (h1 == 1)
+            {
+
+                h1A.BackColor = Color.DarkGray;
+                h1B.BackColor = Color.Red;
+                h1C.BackColor = Color.Red;
+                h1D.BackColor = Color.DarkGray;
+                h1E.BackColor = Color.DarkGray;
+                h1F.BackColor = Color.DarkGray;
+                h1G.BackColor = Color.DarkGray;
+            }
+            else if (h1 == 2)
+            {
+                h1A.BackColor = Color.Red;
+                h1B.BackColor = Color.Red;
+                h1C.BackColor = Color.DarkGray;
+                h1D.BackColor = Color.Red;
+                h1E.BackColor = Color.Red;
+                h1F.BackColor = Color.DarkGray;
+                h1G.BackColor = Color.Red;
+            }
+            else if (h1 == 3)
+            {
+                h1A.BackColor = Color.Red;
+                h1B.BackColor = Color.Red;
+                h1C.BackColor = Color.Red;
+                h1D.BackColor = Color.Red;
+                h1E.BackColor = Color.DarkGray;
+                h1F.BackColor = Color.DarkGray;
+                h1G.BackColor = Color.Red;
+            }
+            else if (h1 == 4)
+            {
+                h1A.BackColor = Color.DarkGray;
+                h1B.BackColor = Color.Red;
+                h1C.BackColor = Color.Red;
+                h1D.BackColor = Color.DarkGray;
+                h1E.BackColor = Color.DarkGray;
+                h1F.BackColor = Color.Red;
+                h1G.BackColor = Color.Red;
+            }
+            else if (h1 == 5)
+            {
+                h1A.BackColor = Color.Red;
+                h1B.BackColor = Color.DarkGray;
+                h1C.BackColor = Color.Red;
+                h1D.BackColor = Color.Red;
+                h1E.BackColor = Color.DarkGray;
+                h1F.BackColor = Color.Red;
+                h1G.BackColor = Color.Red;
+            }
+            else if (h1 == 6)
+            {
+                h1A.BackColor = Color.Red;
+                h1B.BackColor = Color.DarkGray;
+                h1C.BackColor = Color.Red;
+                h1D.BackColor = Color.Red;
+                h1E.BackColor = Color.Red;
+                h1F.BackColor = Color.Red;
+                h1G.BackColor = Color.Red;
+            }
+            else if (h1 == 7)
+            {
+                h1A.BackColor = Color.Red;
+                h1B.BackColor = Color.Red;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.DarkGray;
+                m1E.BackColor = Color.DarkGray;
+                m1F.BackColor = Color.DarkGray;
+                m1G.BackColor = Color.Red;
+            }
+            else if (h1 == 8)
+            {
+                h1A.BackColor = Color.Red;
+                h1B.BackColor = Color.Red;
+                h1C.BackColor = Color.Red;
+                h1D.BackColor = Color.Red;
+                h1E.BackColor = Color.Red;
+                h1F.BackColor = Color.Red;
+                h1G.BackColor = Color.Red;
+            }
+            else if (h1 == 9)
+            {
+                h1A.BackColor = Color.Red;
+                h1B.BackColor = Color.Red;
+                h1C.BackColor = Color.Red;
+                h1D.BackColor = Color.Red;
+                h1E.BackColor = Color.DarkGray;
+                h1F.BackColor = Color.Red;
+                h1G.BackColor = Color.Red;
+            }
+            else if (h1 == 0)
+            {
+                h1A.BackColor = Color.Red;
+                h1B.BackColor = Color.Red;
+                h1C.BackColor = Color.Red;
+                h1D.BackColor = Color.Red;
+                h1E.BackColor = Color.Red;
+                h1F.BackColor = Color.Red;
+                h1G.BackColor = Color.DarkGray;
+            }
+
+            // second hours
+            if (h2 == 1)
+            {
+                h2A.BackColor = Color.DarkGray;
+                h2B.BackColor = Color.Red;
+                h2C.BackColor = Color.Red;
+                h2D.BackColor = Color.DarkGray;
+                h2E.BackColor = Color.DarkGray;
+                h2F.BackColor = Color.DarkGray;
+                h2G.BackColor = Color.DarkGray;
+            }
+            else if (h2 == 2)
+            {
+                h2A.BackColor = Color.Red;
+                h2B.BackColor = Color.Red;
+                h2C.BackColor = Color.DarkGray;
+                h2D.BackColor = Color.Red;
+                h2E.BackColor = Color.Red;
+                h2F.BackColor = Color.DarkGray;
+                h2G.BackColor = Color.Red;
+            }
+            else if (h2 == 3)
+            {
+                h2A.BackColor = Color.Red;
+                h2B.BackColor = Color.Red;
+                h2C.BackColor = Color.Red;
+                h2D.BackColor = Color.Red;
+                h2E.BackColor = Color.DarkGray;
+                h2F.BackColor = Color.DarkGray;
+                h2G.BackColor = Color.Red;
+            }
+            else if (h2 == 4)
+            {
+                h2A.BackColor = Color.DarkGray;
+                h2B.BackColor = Color.Red;
+                h2C.BackColor = Color.Red;
+                h2D.BackColor = Color.DarkGray;
+                h2E.BackColor = Color.DarkGray;
+                h2F.BackColor = Color.Red;
+                h2G.BackColor = Color.Red;
+            }
+            else if (h2 == 5)
+            {
+                h2A.BackColor = Color.Red;
+                h2B.BackColor = Color.DarkGray;
+                h2C.BackColor = Color.Red;
+                h2D.BackColor = Color.Red;
+                h2E.BackColor = Color.DarkGray;
+                h2F.BackColor = Color.Red;
+                h2G.BackColor = Color.Red;
+            }
+            else if (h2 == 6)
+            {
+                h2A.BackColor = Color.Red;
+                h2B.BackColor = Color.DarkGray;
+                h2C.BackColor = Color.Red;
+                h2D.BackColor = Color.Red;
+                h2E.BackColor = Color.Red;
+                h2F.BackColor = Color.Red;
+                h2G.BackColor = Color.Red;
+            }
+            else if (h2 == 7)
+            {
+                h2A.BackColor = Color.Red;
+                h2B.BackColor = Color.Red;
+                h2C.BackColor = Color.Red;
+                h2D.BackColor = Color.DarkGray;
+                h2E.BackColor = Color.DarkGray;
+                h2F.BackColor = Color.DarkGray;
+                h2G.BackColor = Color.Red;
+            }
+            else if (h2 == 8)
+            {
+                h2A.BackColor = Color.Red;
+                h2B.BackColor = Color.Red;
+                h2C.BackColor = Color.Red;
+                h2D.BackColor = Color.Red;
+                h2E.BackColor = Color.Red;
+                h2F.BackColor = Color.Red;
+                h2G.BackColor = Color.Red;
+            }
+            else if (h2 == 9)
+            {
+                h2A.BackColor = Color.Red;
+                h2B.BackColor = Color.Red;
+                h2C.BackColor = Color.Red;
+                h2D.BackColor = Color.Red;
+                h2E.BackColor = Color.DarkGray;
+                h2F.BackColor = Color.Red;
+                h2G.BackColor = Color.Red;
+            }
+            else if (h2 == 0)
+            {
+                h2A.BackColor = Color.Red;
+                h2B.BackColor = Color.Red;
+                h2C.BackColor = Color.Red;
+                h2D.BackColor = Color.Red;
+                h2E.BackColor = Color.Red;
+                h2F.BackColor = Color.Red;
+                h2G.BackColor = Color.DarkGray;
+            }
         }
     }
 }
