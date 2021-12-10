@@ -228,6 +228,216 @@ namespace cs_7segment_time
                 s2F.BackColor = Color.Red;
                 s2G.BackColor = Color.DarkGray;
             }
+
+            //MINUTES
+            int m1 = Convert.ToInt32(DateTime.Now.ToString("mm").Substring(DateTime.Now.ToString("mm").Length - 1));
+            int m2 = Convert.ToInt32(DateTime.Now.ToString("mm").Substring(0, 1));
+
+            // first minutes
+            if (m1 == 1)
+            {
+
+                m1A.BackColor = Color.DarkGray;
+                m1B.BackColor = Color.Red;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.DarkGray;
+                m1E.BackColor = Color.DarkGray;
+                m1F.BackColor = Color.DarkGray;
+                m1G.BackColor = Color.DarkGray;
+            }
+            else if (m1 == 2)
+            {
+                m1A.BackColor = Color.Red;
+                m1B.BackColor = Color.Red;
+                m1C.BackColor = Color.DarkGray;
+                m1D.BackColor = Color.Red;
+                m1E.BackColor = Color.Red;
+                m1F.BackColor = Color.DarkGray;
+                m1G.BackColor = Color.Red;
+            }
+            else if (m1 == 3)
+            {
+                m1A.BackColor = Color.Red;
+                m1B.BackColor = Color.Red;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.Red;
+                m1E.BackColor = Color.DarkGray;
+                m1F.BackColor = Color.DarkGray;
+                m1G.BackColor = Color.Red;
+            }
+            else if (m1 == 4)
+            {
+                m1A.BackColor = Color.DarkGray;
+                m1B.BackColor = Color.Red;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.DarkGray;
+                m1E.BackColor = Color.DarkGray;
+                m1F.BackColor = Color.Red;
+                m1G.BackColor = Color.Red;
+            }
+            else if (m1 == 5)
+            {
+                m1A.BackColor = Color.Red;
+                m1B.BackColor = Color.DarkGray;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.Red;
+                m1E.BackColor = Color.DarkGray;
+                m1F.BackColor = Color.Red;
+                m1G.BackColor = Color.Red;
+            }
+            else if (m1 == 6)
+            {
+                m1A.BackColor = Color.Red;
+                m1B.BackColor = Color.DarkGray;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.Red;
+                m1E.BackColor = Color.Red;
+                m1F.BackColor = Color.Red;
+                m1G.BackColor = Color.Red;
+            }
+            else if (m1 == 7)
+            {
+                m1A.BackColor = Color.Red;
+                m1B.BackColor = Color.Red;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.DarkGray;
+                m1E.BackColor = Color.DarkGray;
+                m1F.BackColor = Color.DarkGray;
+                m1G.BackColor = Color.Red;
+            }
+            else if (m1 == 8)
+            {
+                m1A.BackColor = Color.Red;
+                m1B.BackColor = Color.Red;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.Red;
+                m1E.BackColor = Color.Red;
+                m1F.BackColor = Color.Red;
+                m1G.BackColor = Color.Red;
+            }
+            else if (m1 == 9)
+            {
+                m1A.BackColor = Color.Red;
+                m1B.BackColor = Color.Red;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.Red;
+                m1E.BackColor = Color.DarkGray;
+                m1F.BackColor = Color.Red;
+                m1G.BackColor = Color.Red;
+            }
+            else if (m1 == 0)
+            {
+                m1A.BackColor = Color.Red;
+                m1B.BackColor = Color.Red;
+                m1C.BackColor = Color.Red;
+                m1D.BackColor = Color.Red;
+                m1E.BackColor = Color.Red;
+                m1F.BackColor = Color.Red;
+                m1G.BackColor = Color.DarkGray;
+            }
+
+            // second minutes
+            if (m2 == 1)
+            {
+
+                m2A.BackColor = Color.DarkGray;
+                m2B.BackColor = Color.Red;
+                m2C.BackColor = Color.Red;
+                m2D.BackColor = Color.DarkGray;
+                m2E.BackColor = Color.DarkGray;
+                m2F.BackColor = Color.DarkGray;
+                m2G.BackColor = Color.DarkGray;
+            }
+            else if (m2 == 2)
+            {
+                m2A.BackColor = Color.Red;
+                m2B.BackColor = Color.Red;
+                m2C.BackColor = Color.DarkGray;
+                m2D.BackColor = Color.Red;
+                m2E.BackColor = Color.Red;
+                m2F.BackColor = Color.DarkGray;
+                m2G.BackColor = Color.Red;
+            }
+            else if (m2 == 3)
+            {
+                m2A.BackColor = Color.Red;
+                m2B.BackColor = Color.Red;
+                m2C.BackColor = Color.Red;
+                m2D.BackColor = Color.Red;
+                m2E.BackColor = Color.DarkGray;
+                m2F.BackColor = Color.DarkGray;
+                m2G.BackColor = Color.Red;
+            }
+            else if (m2 == 4)
+            {
+                m2A.BackColor = Color.DarkGray;
+                m2B.BackColor = Color.Red;
+                m2C.BackColor = Color.Red;
+                m2D.BackColor = Color.DarkGray;
+                m2E.BackColor = Color.DarkGray;
+                m2F.BackColor = Color.Red;
+                m2G.BackColor = Color.Red;
+            }
+            else if (m2 == 5)
+            {
+                m2A.BackColor = Color.Red;
+                m2B.BackColor = Color.DarkGray;
+                m2C.BackColor = Color.Red;
+                m2D.BackColor = Color.Red;
+                m2E.BackColor = Color.DarkGray;
+                m2F.BackColor = Color.Red;
+                m2G.BackColor = Color.Red;
+            }
+            else if (m2 == 6)
+            {
+                m2A.BackColor = Color.Red;
+                m2B.BackColor = Color.DarkGray;
+                m2C.BackColor = Color.Red;
+                m2D.BackColor = Color.Red;
+                m2E.BackColor = Color.Red;
+                m2F.BackColor = Color.Red;
+                m2G.BackColor = Color.Red;
+            }
+            else if (m2 == 7)
+            {
+                m2A.BackColor = Color.Red;
+                m2B.BackColor = Color.Red;
+                m2C.BackColor = Color.Red;
+                m2D.BackColor = Color.DarkGray;
+                m2E.BackColor = Color.DarkGray;
+                m2F.BackColor = Color.DarkGray;
+                m2G.BackColor = Color.Red;
+            }
+            else if (m2 == 8)
+            {
+                m2A.BackColor = Color.Red;
+                m2B.BackColor = Color.Red;
+                m2C.BackColor = Color.Red;
+                m2D.BackColor = Color.Red;
+                m2E.BackColor = Color.Red;
+                m2F.BackColor = Color.Red;
+                m2G.BackColor = Color.Red;
+            }
+            else if (m2 == 9)
+            {
+                m2A.BackColor = Color.Red;
+                m2B.BackColor = Color.Red;
+                m2C.BackColor = Color.Red;
+                m2D.BackColor = Color.Red;
+                m2E.BackColor = Color.DarkGray;
+                m2F.BackColor = Color.Red;
+                m2G.BackColor = Color.Red;
+            }
+            else if (m2 == 0)
+            {
+                m2A.BackColor = Color.Red;
+                m2B.BackColor = Color.Red;
+                m2C.BackColor = Color.Red;
+                m2D.BackColor = Color.Red;
+                m2E.BackColor = Color.Red;
+                m2F.BackColor = Color.Red;
+                m2G.BackColor = Color.DarkGray;
+            }
         }
     }
 }
