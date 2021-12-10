@@ -29,6 +29,7 @@ namespace cs_7segment_time
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
@@ -77,6 +78,7 @@ namespace cs_7segment_time
             this.m1A = new System.Windows.Forms.Button();
             this.m1B = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.digitalClock = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -157,7 +159,7 @@ namespace cs_7segment_time
             // 
             // s2D
             // 
-            this.s2D.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s2D.BackColor = System.Drawing.Color.DarkGray;
             this.s2D.Enabled = false;
             this.s2D.Location = new System.Drawing.Point(554, 148);
             this.s2D.Name = "s2D";
@@ -167,7 +169,7 @@ namespace cs_7segment_time
             // 
             // s2C
             // 
-            this.s2C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s2C.BackColor = System.Drawing.Color.DarkGray;
             this.s2C.Enabled = false;
             this.s2C.Location = new System.Drawing.Point(617, 97);
             this.s2C.Name = "s2C";
@@ -177,7 +179,7 @@ namespace cs_7segment_time
             // 
             // s2E
             // 
-            this.s2E.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s2E.BackColor = System.Drawing.Color.DarkGray;
             this.s2E.Enabled = false;
             this.s2E.Location = new System.Drawing.Point(530, 97);
             this.s2E.Name = "s2E";
@@ -187,7 +189,7 @@ namespace cs_7segment_time
             // 
             // s2G
             // 
-            this.s2G.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s2G.BackColor = System.Drawing.Color.DarkGray;
             this.s2G.Enabled = false;
             this.s2G.Location = new System.Drawing.Point(553, 85);
             this.s2G.Name = "s2G";
@@ -197,7 +199,7 @@ namespace cs_7segment_time
             // 
             // s2F
             // 
-            this.s2F.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s2F.BackColor = System.Drawing.Color.DarkGray;
             this.s2F.Enabled = false;
             this.s2F.Location = new System.Drawing.Point(530, 21);
             this.s2F.Name = "s2F";
@@ -207,7 +209,7 @@ namespace cs_7segment_time
             // 
             // s2A
             // 
-            this.s2A.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s2A.BackColor = System.Drawing.Color.DarkGray;
             this.s2A.Enabled = false;
             this.s2A.Location = new System.Drawing.Point(554, 21);
             this.s2A.Name = "s2A";
@@ -217,7 +219,7 @@ namespace cs_7segment_time
             // 
             // s2B
             // 
-            this.s2B.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s2B.BackColor = System.Drawing.Color.DarkGray;
             this.s2B.Enabled = false;
             this.s2B.Location = new System.Drawing.Point(617, 21);
             this.s2B.Name = "s2B";
@@ -227,7 +229,7 @@ namespace cs_7segment_time
             // 
             // s1D
             // 
-            this.s1D.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s1D.BackColor = System.Drawing.Color.DarkGray;
             this.s1D.Enabled = false;
             this.s1D.Location = new System.Drawing.Point(672, 148);
             this.s1D.Name = "s1D";
@@ -237,7 +239,7 @@ namespace cs_7segment_time
             // 
             // s1C
             // 
-            this.s1C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s1C.BackColor = System.Drawing.Color.DarkGray;
             this.s1C.Enabled = false;
             this.s1C.Location = new System.Drawing.Point(735, 97);
             this.s1C.Name = "s1C";
@@ -247,7 +249,7 @@ namespace cs_7segment_time
             // 
             // s1E
             // 
-            this.s1E.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s1E.BackColor = System.Drawing.Color.DarkGray;
             this.s1E.Enabled = false;
             this.s1E.Location = new System.Drawing.Point(648, 97);
             this.s1E.Name = "s1E";
@@ -257,7 +259,7 @@ namespace cs_7segment_time
             // 
             // s1G
             // 
-            this.s1G.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s1G.BackColor = System.Drawing.Color.DarkGray;
             this.s1G.Enabled = false;
             this.s1G.Location = new System.Drawing.Point(671, 85);
             this.s1G.Name = "s1G";
@@ -267,7 +269,7 @@ namespace cs_7segment_time
             // 
             // s1F
             // 
-            this.s1F.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s1F.BackColor = System.Drawing.Color.DarkGray;
             this.s1F.Enabled = false;
             this.s1F.Location = new System.Drawing.Point(648, 21);
             this.s1F.Name = "s1F";
@@ -277,7 +279,7 @@ namespace cs_7segment_time
             // 
             // s1A
             // 
-            this.s1A.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s1A.BackColor = System.Drawing.Color.DarkGray;
             this.s1A.Enabled = false;
             this.s1A.Location = new System.Drawing.Point(672, 21);
             this.s1A.Name = "s1A";
@@ -287,7 +289,7 @@ namespace cs_7segment_time
             // 
             // s1B
             // 
-            this.s1B.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.s1B.BackColor = System.Drawing.Color.DarkGray;
             this.s1B.Enabled = false;
             this.s1B.Location = new System.Drawing.Point(735, 21);
             this.s1B.Name = "s1B";
@@ -297,7 +299,7 @@ namespace cs_7segment_time
             // 
             // h2D
             // 
-            this.h2D.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h2D.BackColor = System.Drawing.Color.DarkGray;
             this.h2D.Enabled = false;
             this.h2D.Location = new System.Drawing.Point(40, 148);
             this.h2D.Name = "h2D";
@@ -307,7 +309,7 @@ namespace cs_7segment_time
             // 
             // h2C
             // 
-            this.h2C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h2C.BackColor = System.Drawing.Color.DarkGray;
             this.h2C.Enabled = false;
             this.h2C.Location = new System.Drawing.Point(103, 97);
             this.h2C.Name = "h2C";
@@ -317,7 +319,7 @@ namespace cs_7segment_time
             // 
             // h2E
             // 
-            this.h2E.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h2E.BackColor = System.Drawing.Color.DarkGray;
             this.h2E.Enabled = false;
             this.h2E.Location = new System.Drawing.Point(16, 97);
             this.h2E.Name = "h2E";
@@ -327,7 +329,7 @@ namespace cs_7segment_time
             // 
             // h2G
             // 
-            this.h2G.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h2G.BackColor = System.Drawing.Color.DarkGray;
             this.h2G.Enabled = false;
             this.h2G.Location = new System.Drawing.Point(39, 85);
             this.h2G.Name = "h2G";
@@ -337,7 +339,7 @@ namespace cs_7segment_time
             // 
             // h2F
             // 
-            this.h2F.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h2F.BackColor = System.Drawing.Color.DarkGray;
             this.h2F.Enabled = false;
             this.h2F.Location = new System.Drawing.Point(16, 21);
             this.h2F.Name = "h2F";
@@ -347,7 +349,7 @@ namespace cs_7segment_time
             // 
             // h2A
             // 
-            this.h2A.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h2A.BackColor = System.Drawing.Color.DarkGray;
             this.h2A.Enabled = false;
             this.h2A.Location = new System.Drawing.Point(40, 21);
             this.h2A.Name = "h2A";
@@ -357,7 +359,7 @@ namespace cs_7segment_time
             // 
             // h2B
             // 
-            this.h2B.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h2B.BackColor = System.Drawing.Color.DarkGray;
             this.h2B.Enabled = false;
             this.h2B.Location = new System.Drawing.Point(103, 21);
             this.h2B.Name = "h2B";
@@ -367,7 +369,7 @@ namespace cs_7segment_time
             // 
             // h1D
             // 
-            this.h1D.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h1D.BackColor = System.Drawing.Color.DarkGray;
             this.h1D.Enabled = false;
             this.h1D.Location = new System.Drawing.Point(158, 148);
             this.h1D.Name = "h1D";
@@ -377,7 +379,7 @@ namespace cs_7segment_time
             // 
             // h1C
             // 
-            this.h1C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h1C.BackColor = System.Drawing.Color.DarkGray;
             this.h1C.Enabled = false;
             this.h1C.Location = new System.Drawing.Point(221, 97);
             this.h1C.Name = "h1C";
@@ -387,7 +389,7 @@ namespace cs_7segment_time
             // 
             // h1E
             // 
-            this.h1E.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h1E.BackColor = System.Drawing.Color.DarkGray;
             this.h1E.Enabled = false;
             this.h1E.Location = new System.Drawing.Point(134, 97);
             this.h1E.Name = "h1E";
@@ -397,7 +399,7 @@ namespace cs_7segment_time
             // 
             // h1G
             // 
-            this.h1G.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h1G.BackColor = System.Drawing.Color.DarkGray;
             this.h1G.Enabled = false;
             this.h1G.Location = new System.Drawing.Point(157, 85);
             this.h1G.Name = "h1G";
@@ -407,7 +409,7 @@ namespace cs_7segment_time
             // 
             // h1F
             // 
-            this.h1F.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h1F.BackColor = System.Drawing.Color.DarkGray;
             this.h1F.Enabled = false;
             this.h1F.Location = new System.Drawing.Point(134, 21);
             this.h1F.Name = "h1F";
@@ -417,7 +419,7 @@ namespace cs_7segment_time
             // 
             // h1A
             // 
-            this.h1A.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h1A.BackColor = System.Drawing.Color.DarkGray;
             this.h1A.Enabled = false;
             this.h1A.Location = new System.Drawing.Point(158, 21);
             this.h1A.Name = "h1A";
@@ -427,7 +429,7 @@ namespace cs_7segment_time
             // 
             // h1B
             // 
-            this.h1B.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.h1B.BackColor = System.Drawing.Color.DarkGray;
             this.h1B.Enabled = false;
             this.h1B.Location = new System.Drawing.Point(221, 21);
             this.h1B.Name = "h1B";
@@ -457,7 +459,7 @@ namespace cs_7segment_time
             // 
             // m2D
             // 
-            this.m2D.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m2D.BackColor = System.Drawing.Color.DarkGray;
             this.m2D.Enabled = false;
             this.m2D.Location = new System.Drawing.Point(299, 148);
             this.m2D.Name = "m2D";
@@ -467,7 +469,7 @@ namespace cs_7segment_time
             // 
             // m2C
             // 
-            this.m2C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m2C.BackColor = System.Drawing.Color.DarkGray;
             this.m2C.Enabled = false;
             this.m2C.Location = new System.Drawing.Point(362, 97);
             this.m2C.Name = "m2C";
@@ -477,7 +479,7 @@ namespace cs_7segment_time
             // 
             // m2E
             // 
-            this.m2E.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m2E.BackColor = System.Drawing.Color.DarkGray;
             this.m2E.Enabled = false;
             this.m2E.Location = new System.Drawing.Point(275, 97);
             this.m2E.Name = "m2E";
@@ -487,7 +489,7 @@ namespace cs_7segment_time
             // 
             // m2G
             // 
-            this.m2G.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m2G.BackColor = System.Drawing.Color.DarkGray;
             this.m2G.Enabled = false;
             this.m2G.Location = new System.Drawing.Point(298, 85);
             this.m2G.Name = "m2G";
@@ -497,7 +499,7 @@ namespace cs_7segment_time
             // 
             // m2F
             // 
-            this.m2F.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m2F.BackColor = System.Drawing.Color.DarkGray;
             this.m2F.Enabled = false;
             this.m2F.Location = new System.Drawing.Point(275, 21);
             this.m2F.Name = "m2F";
@@ -507,7 +509,7 @@ namespace cs_7segment_time
             // 
             // m2A
             // 
-            this.m2A.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m2A.BackColor = System.Drawing.Color.DarkGray;
             this.m2A.Enabled = false;
             this.m2A.Location = new System.Drawing.Point(299, 21);
             this.m2A.Name = "m2A";
@@ -517,7 +519,7 @@ namespace cs_7segment_time
             // 
             // m2B
             // 
-            this.m2B.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m2B.BackColor = System.Drawing.Color.DarkGray;
             this.m2B.Enabled = false;
             this.m2B.Location = new System.Drawing.Point(362, 21);
             this.m2B.Name = "m2B";
@@ -527,7 +529,7 @@ namespace cs_7segment_time
             // 
             // m1D
             // 
-            this.m1D.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m1D.BackColor = System.Drawing.Color.DarkGray;
             this.m1D.Enabled = false;
             this.m1D.Location = new System.Drawing.Point(417, 148);
             this.m1D.Name = "m1D";
@@ -537,7 +539,7 @@ namespace cs_7segment_time
             // 
             // m1C
             // 
-            this.m1C.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m1C.BackColor = System.Drawing.Color.DarkGray;
             this.m1C.Enabled = false;
             this.m1C.Location = new System.Drawing.Point(480, 97);
             this.m1C.Name = "m1C";
@@ -547,7 +549,7 @@ namespace cs_7segment_time
             // 
             // m1E
             // 
-            this.m1E.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m1E.BackColor = System.Drawing.Color.DarkGray;
             this.m1E.Enabled = false;
             this.m1E.Location = new System.Drawing.Point(393, 97);
             this.m1E.Name = "m1E";
@@ -557,7 +559,7 @@ namespace cs_7segment_time
             // 
             // m1G
             // 
-            this.m1G.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m1G.BackColor = System.Drawing.Color.DarkGray;
             this.m1G.Enabled = false;
             this.m1G.Location = new System.Drawing.Point(416, 85);
             this.m1G.Name = "m1G";
@@ -567,7 +569,7 @@ namespace cs_7segment_time
             // 
             // m1F
             // 
-            this.m1F.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m1F.BackColor = System.Drawing.Color.DarkGray;
             this.m1F.Enabled = false;
             this.m1F.Location = new System.Drawing.Point(393, 21);
             this.m1F.Name = "m1F";
@@ -577,7 +579,7 @@ namespace cs_7segment_time
             // 
             // m1A
             // 
-            this.m1A.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m1A.BackColor = System.Drawing.Color.DarkGray;
             this.m1A.Enabled = false;
             this.m1A.Location = new System.Drawing.Point(417, 21);
             this.m1A.Name = "m1A";
@@ -587,7 +589,7 @@ namespace cs_7segment_time
             // 
             // m1B
             // 
-            this.m1B.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m1B.BackColor = System.Drawing.Color.DarkGray;
             this.m1B.Enabled = false;
             this.m1B.Location = new System.Drawing.Point(480, 21);
             this.m1B.Name = "m1B";
@@ -604,6 +606,12 @@ namespace cs_7segment_time
             this.label1.Size = new System.Drawing.Size(334, 46);
             this.label1.TabIndex = 1;
             this.label1.Text = "DIGITAL CLOCK";
+            // 
+            // digitalClock
+            // 
+            this.digitalClock.Enabled = true;
+            this.digitalClock.Interval = 1000;
+            this.digitalClock.Tick += new System.EventHandler(this.digitalClock_Tick);
             // 
             // Form1
             // 
@@ -670,6 +678,7 @@ namespace cs_7segment_time
         private System.Windows.Forms.Button m1G;
         private System.Windows.Forms.Button m1F;
         private System.Windows.Forms.Button m1A;
+        private System.Windows.Forms.Timer digitalClock;
     }
 }
 
